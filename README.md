@@ -2,11 +2,14 @@
 An application named cards application that allows users to create and manage tasks in the form of cards
 
 ## Features
-* login with JWT authentication
-* Password encryption using BCrypt
-* Role-based authorization with Spring Security
-* Customized access denied handling
-* Logout mechanism
+* login with JWT authentication.
+* Members have access to cards they created.
+* Admins have access to all cards.
+* A user creates a card by providing a name for it and, optionally, a description and a color.
+* A user can search through cards they have access to.
+* A user can request a single card they have access to.
+* A user can update the name, the description, the color and/or the status of a card they have access to.
+* A user can delete a card they have access to.
 * Refresh token
 
   ## Technologies
@@ -23,9 +26,9 @@ To get started with this project, you will need to have the following installed 
 * Maven 3+
 To build and run the project, follow these steps:
 
-* Clone the repository: `git clone https://github.com/ali-bouali/spring-boot-3-jwt-security.git`
-* Navigate to the project directory: cd spring-boot-security-jwt
-* Add database "jwt_security" to postgres 
+* Clone the repository: `git clone https://github.com/ali-bouali/spring-boot-3-jwt-security.git](https://github.com/ekcareer/Logicea.git`
+* Navigate to the project directory: cd cards
+* Run docker desktop because of MYSQL database container to run
 * Build the project: mvn clean install
 * Run the project: mvn spring-boot:run 
 
