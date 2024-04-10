@@ -2,7 +2,6 @@ package com.logicea.cards.Services;
 
 import java.util.Objects;
 
-import org.apache.el.stream.Optional;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -98,10 +97,11 @@ public class CardsService {
                     "Card with id " + cardId + "does not exists");
         }
         cardRepository.deleteById(cardId);
+
     }
 
     @Transactional
-    public void updateCard(Integer cardId, CardUpdateRequest request) {
+    public Card updateCard(Integer cardId, CardUpdateRequest request) {
 
         Card fetchedCard = GetCardByUserRole(cardId);
 
@@ -130,6 +130,8 @@ public class CardsService {
 
             fetchedCard.setStatus(request.getStatus());
         }
+
+        return fetchedCard;
     }
 
     public Page<Card> searchCards(String name, String color, String status, LocalDateTime creationDate, int pageNumber,

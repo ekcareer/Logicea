@@ -30,7 +30,7 @@ public class AuthenticationController {
 
     private final AuthenticationService service;
 
-    @Operation(description = "Get paginated endpoint for users", summary = "This is a summary for get paginated user endpoint", responses = {
+    @Operation(description = "A user can login to get the access token using email and password", summary = "A user can login and access the JWT access by providing the email and password", responses = {
             @ApiResponse(description = "Success", responseCode = "200"),
             @ApiResponse(description = "Unauthorized/Invalid token", responseCode = "403", content = @Content(array = @ArraySchema(schema = @Schema(implementation = ErrorDto.class))))
     })

@@ -11,6 +11,7 @@ public class CardSpec {
     public static final String COLOR = "color";
     public static final String STATUS = "status";
     public static final String CREATEDBY = "createdBy";
+    public static final String CREATEDDATE = "createDate";
 
     private CardSpec() {
         // empty
