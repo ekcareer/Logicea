@@ -53,9 +53,8 @@ public class CardsService {
         Specification<Card> spec = GetAllCardSpec
                 .filterBy(new GetAllCardFilter(authenticationService.getCurrentUser()));
 
-        Page<Card> result = cardRepository.findAll(spec, pageable);
+        return cardRepository.findAll(spec, pageable);
 
-        return result;
     }
 
     public void addNewCard(CardCreateRequest request) {

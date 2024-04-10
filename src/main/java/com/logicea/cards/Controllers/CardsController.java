@@ -47,7 +47,6 @@ public class CardsController {
                         @RequestParam int page,
                         @RequestParam int pageSize,
                         @RequestParam @Nullable String sortby) {
-
                 return ResponseEntity.ok(cardsService.GetPaginatedCards(page, pageSize, sortby));
         }
 

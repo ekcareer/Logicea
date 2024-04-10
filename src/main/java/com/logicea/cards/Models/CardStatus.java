@@ -2,6 +2,6 @@ package com.logicea.cards.Models;
 
 public enum CardStatus {
     TODO,
-    INPROGESS,
+    INPROGRESS,
     DONE
 }
