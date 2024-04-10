@@ -33,8 +33,17 @@ To build and run the project, follow these steps:
 * Navigate to the project directory: cd cards
 * Run docker desktop because of MYSQL database container to run
 * Build the project: mvn clean install
-* Run the project: mvn spring-boot:run 
+* Run the project: mvn spring-boot:run
+
+  ## Accessing the application
+
+  Seeded users
+  
+* admin@Logicea.co.ke
+* member2@Logicea.co.ke
+* member@Logicea.co.ke
+  
 
 -> The application will be available at http://localhost:8080.
 
--> The application will be available at http://localhost:8080](http://localhost:8080/swagger-ui/index.html.
+-> The application will be available at http://localhost:8080/swagger-ui/index.html.
