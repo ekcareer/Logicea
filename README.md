@@ -24,9 +24,12 @@ To get started with this project, you will need to have the following installed 
 
 * JDK 17+
 * Maven 3+
+* Docker desktop
+
+  
 To build and run the project, follow these steps:
 
-* Clone the repository: `git clone https://github.com/ali-bouali/spring-boot-3-jwt-security.git](https://github.com/ekcareer/Logicea.git`
+* Clone the repository: `git clone https://github.com/ekcareer/Logicea.git`
 * Navigate to the project directory: cd cards
 * Run docker desktop because of MYSQL database container to run
 * Build the project: mvn clean install
