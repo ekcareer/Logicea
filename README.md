@@ -41,11 +41,16 @@ To build and run the project, follow these steps:
 
   ## Accessing the application
 
-  Seeded users
+  Seeded users to to generate access token
 
-- admin@Logicea.co.ke
-- member2@Logicea.co.ke
-- member@Logicea.co.ke
+- Username: admin@Logicea.co.ke
+- Password: 123456
+
+- Username: member2@Logicea.co.ke
+- Password: 123456
+
+- Username: member@Logicea.co.ke
+- Password: 123456
 
 -> The application will be available at http://localhost:8080.
 
