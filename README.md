@@ -37,7 +37,7 @@ To build and run the project, follow these steps:
 
   ## Accessing the application
 
-  Seeded user
+  Seeded users
   
 * admin@Logicea.co.ke
 * member2@Logicea.co.ke
