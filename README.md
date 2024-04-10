@@ -33,7 +33,16 @@ To build and run the project, follow these steps:
 * Navigate to the project directory: cd cards
 * Run docker desktop because of MYSQL database container to run
 * Build the project: mvn clean install
-* Run the project: mvn spring-boot:run 
+* Run the project: mvn spring-boot:run
+
+  ## Accessing the application
+
+  Seeded user
+  
+* admin@Logicea.co.ke
+* member2@Logicea.co.ke
+* member@Logicea.co.ke
+  
 
 -> The application will be available at http://localhost:8080.
 
