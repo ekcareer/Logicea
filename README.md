@@ -10,7 +10,7 @@ An application named cards application that allows users to create and manage ta
 * A user can request a single card they have access to.
 * A user can update the name, the description, the color and/or the status of a card they have access to.
 * A user can delete a card they have access to.
-* Refresh token
+
 
   ## Technologies
 * Spring Boot 3.0
