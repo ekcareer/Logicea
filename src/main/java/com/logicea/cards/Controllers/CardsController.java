@@ -62,7 +62,7 @@ public class CardsController {
                 return ResponseEntity.ok(cardsService.GetCard(cardId));
         }
 
-        @Operation(description = "Get paginated endpoint for users", summary = "This is a summary for get paginated user endpoint", responses = {
+        @Operation(description = "A user can get a single card they have access to.", summary = "A user can get a single card they have access to.", responses = {
                         @ApiResponse(description = "Success", responseCode = "200"),
                         @ApiResponse(description = "Unauthorized/Invalid token", responseCode = "403", content = @Content(array = @ArraySchema(schema = @Schema(implementation = ErrorDto.class)))),
                         @ApiResponse(description = "Bad Request", responseCode = "400", content = @Content(array = @ArraySchema(schema = @Schema(implementation = ErrorDto.class))))
